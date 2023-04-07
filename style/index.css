@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(clear.css);
+
+.header {
+  box-shadow: 0px 10px 30px rgba(187, 194, 208, 0.1);
+}
+.header .wrapper {
+  display: flex;
+  column-gap: 11px;
+  padding: 24px 120px;
+}
+.logo {
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  background: #d7d7d7;
+  padding: 10px 60px;
+}
+.nav {
+  width: 100%;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 145px 1fr repeat(2, 40px);
+}
+.nav_menu {
+  height: 40px;
+  display: flex;
+  column-gap: 12px;
+  padding: 10px 8px;
+  border: 0.5px solid #565656;
+}
+
+.burger_btn {
+  padding: 6px 4px;
+}
+
+.nav_menu p {
+  padding: 6px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.searchIcon {
+  padding: 0.5rem;
+  background: #f7f7f7;
+}
+
+.searchBox {
+  background: #f7f7f7;
+  padding: 10px 0;
+  height: 40px;
+  width: 100%;
+}
+
+.searchButton {
+  background: #538ac5;
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0;
+}
+
+.btn_cart,
+.btn_account {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #565656;
+  border-radius: 30px;
+}
+
+.banner {
+  height: 400px;
+  margin-top: 26px;
+}
+.showcase {
+  height: 600px;
+  margin-top: 120px;
+}
+.showcase .showcaseSwiper {
+  height: 373px;
+  margin-top: 39px;
+}
+.showcase .swiper-wrapper {
+  height: 334px;
+}
+.showcase .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+  height: 334px;
+  border: 1px solid #e1e5ec;
+  /* padding: 6px 8px; */
+}
+.showcase .slide_image {
+  width: 276px;
+  height: 258px;
+}
+.sliderImageSwiper .swiper-slide {
+  /* display: unset !important;
+  justify-content: unset !important;
+  align-items: unset !important; */
+}
+.slide_text {
+  margin-top: 10px;
+}
+.lower_banner {
+  display: flex;
+  flex-direction: column;
+}
+.lower_banner .bannerImage {
+  position: relative;
+  display: flex;
+}
+.lower_banner .bannerImage img {
+  width: 812px;
+  height: 598px;
+}
+.bannerImageBlock {
+  position: absolute;
+  width: 590px;
+  height: 442px;
+  border: 1px solid #bbc2d0;
+  background: #ffffff;
+  top: 58px;
+  left: 730px;
+}
+.bannerAbout {
+  height: 293px;
+  background: #cba2c4;
+}
+
+.dashboard {
+  display: flex;
+  margin-top: 44px;
+}
+.sideNav {
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+}
+.sideNav a.active {
+  color: #565656;
+}
+.dashboardBody {
+  width: 100%;
+  margin-left: 58px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 59px;
+}
+.dasboardRow {
+  width: 100%;
+  display: flex;
+  column-gap: 113px;
+}
+.footer {
+  display: flex;
+  column-gap: 124px;
+  width: 100%;
+  padding: 31px 0 66px 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 14px;
+}
+.footer_row {
+  display: flex;
+  column-gap: 14px;
+  margin-bottom: 16px;
+}
+.dashboardCol {
+  width: 354px;
+}
+.dashboard-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+.dashboardBody label p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dashboardBody .btn {
+  width: 355px;
+  margin: 0 auto;
+}
+.tab-content {
+  display: none;
+  padding: 0 18px;
+}
+.tab-content.is-active {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.tabs ul {
+  display: flex;
+  margin-bottom: 40px;
+}
+.tabs ul li.is-active {
+  border-bottom: 3px solid #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+}
+.tabs ul li {
+  border-bottom: 2px solid #c9c8d3;
+  padding: 6px 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+.forgetpassw {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  margin-top: 8px;
+  color: #565656;
+}
+.loginModal .modalBody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.rememberMe {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+}
+.loginModal input {
+  width: 420px;
+}
+.loginModal .modalFooter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
